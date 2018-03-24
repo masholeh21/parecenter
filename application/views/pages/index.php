@@ -1,13 +1,30 @@
+<style type="text/css">
+  .carousel-inner{
+  height: 600px;
+  width: 100%;
+}
+.carousel-item {
+  height: 65vh;
+  min-height: 600px;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+#carouselExampleIndicators{
+  box-shadow: 5px 5px 5px #d9d9d9; border-radius: 5px
+}
+</style>
 <div class="container" style="margin-top: 1%;">
-
       <!-- Jumbotron Header -->
-        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" style="box-shadow: 5px 5px 5px #d9d9d9; border-radius: 5px; ">
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
           <ol class="carousel-indicators">
             <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
             <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
             <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
           </ol>
-          <div class="carousel-inner" role="listbox">
+          <div class="carousel-inner" role="listbox" >
             <!-- Slide One - Set the background image for this slide in the line below -->
             <div class="carousel-item active" style="background-image: url('http://placehold.it/1320x300')">
               <div class="carousel-caption d-none d-md-block">
@@ -38,7 +55,8 @@
             <span class="carousel-control-next-icon" aria-hidden="true"></span>
             <span class="sr-only">Next</span>
           </a>
-        </div></div>
+        </div>
+      </div>
 
       <!-- tentang kami -->
       <style>
@@ -88,10 +106,10 @@
       </style>
 
 <!-- slide logo -->
-<hr></div>
+<hr>
 
 <!-- /* slide logo -->
-      <div class="container">
+      <div class="container" style="margin: 0 auto;">
         <div class="row">
                 <div class="col-lg-10 block" style="text-align: center; margin: 0 auto;">
                   <div class="container-fluid" style="margin-top: 40px; margin-bottom: 40px; border-bottom-right-radius: 10px;">
@@ -137,65 +155,68 @@
         </div>
 
       <!-- Page Features -->
-      <div class="col-lg-12" style="background: linear-gradient(to right, #f3eeee, white); padding-top: 5px; border-radius: 5px">
-        <h3 style="text-align: center;">Lembaga Terpopuler</h3>
-        <hr>
-      <div class="row text-center batas">
-        <div class="col-lg-3 col-md-6 mb-4 block" data-move-y="200px" data-move-x="-200px">
-          <div class="card">
-            <img class="card-img-top" src="http://placehold.it/500x325" alt="">
-            <div class="card-body">
-              <h4 class="card-title">Card title</h4>
-              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente esse necessitatibus neque.</p>
-            </div>
-            <div class="card-footer">
-              <a href="#" class="btn btn-primary">Find Out More!</a>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-lg-3 col-md-6 mb-4 block" data-move-y="200px" data-move-x="-200px">
-          <div class="card">
-            <img class="card-img-top" src="http://placehold.it/500x325" alt="">
-            <div class="card-body">
-              <h4 class="card-title">Card title</h4>
-              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo magni sapiente, tempore debitis beatae culpa natus architecto.</p>
-            </div>
-            <div class="card-footer">
-              <a href="#" class="btn btn-primary">Find Out More!</a>
+      <div class="container" >
+        <div class="col-lg-12 block" style="background: linear-gradient(to right, #f3eeee, white); padding-top: 5px; border-radius: 5px">
+          <h3 style="text-align: center;">Lembaga Terpopuler</h3>
+          <hr>
+        <div class="row text-center batas">
+          <div class="col-lg-3 col-md-6 mb-4 block">
+            <div class="card">
+              <img class="card-img-top" src="http://placehold.it/500x325" alt="">
+              <div class="card-body">
+                <h4 class="card-title">Card title</h4>
+                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente esse necessitatibus neque.</p>
+              </div>
+              <div class="card-footer">
+                <a href="#" class="btn btn-primary">Find Out More!</a>
+              </div>
             </div>
           </div>
-        </div>
 
-        <div class="col-lg-3 col-md-6 mb-4 block" data-move-y="200px" data-move-x="-200px">
-          <div class="card">
-            <img class="card-img-top" src="http://placehold.it/500x325" alt="">
-            <div class="card-body">
-              <h4 class="card-title">Card title</h4>
-              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente esse necessitatibus neque.</p>
-            </div>
-            <div class="card-footer">
-              <a href="#" class="btn btn-primary">Find Out More!</a>
+          <div class="col-lg-3 col-md-6 mb-4 block">
+            <div class="card">
+              <img class="card-img-top" src="http://placehold.it/500x325" alt="">
+              <div class="card-body">
+                <h4 class="card-title">Card title</h4>
+                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo magni sapiente, tempore debitis beatae culpa natus architecto.</p>
+              </div>
+              <div class="card-footer">
+                <a href="#" class="btn btn-primary">Find Out More!</a>
+              </div>
             </div>
           </div>
-        </div>
 
-        <div class="col-lg-3 col-md-6 mb-4 block" data-move-y="200px" data-move-x="-200px">
-          <div class="card">
-            <img class="card-img-top" src="http://placehold.it/500x325" alt="">
-            <div class="card-body">
-              <h4 class="card-title">Card title</h4>
-              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo magni sapiente, tempore debitis beatae culpa natus architecto.</p>
-            </div>
-            <div class="card-footer">
-              <a href="#" class="btn btn-primary">Find Out More!</a>
+          <div class="col-lg-3 col-md-6 mb-4 block">
+            <div class="card">
+              <img class="card-img-top" src="http://placehold.it/500x325" alt="">
+              <div class="card-body">
+                <h4 class="card-title">Card title</h4>
+                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente esse necessitatibus neque.</p>
+              </div>
+              <div class="card-footer">
+                <a href="#" class="btn btn-primary">Find Out More!</a>
+              </div>
             </div>
           </div>
-        </div>
 
-      </div>
+          <div class="col-lg-3 col-md-6 mb-4 block">
+            <div class="card">
+              <img class="card-img-top" src="http://placehold.it/500x325" alt="">
+              <div class="card-body">
+                <h4 class="card-title">Card title</h4>
+                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo magni sapiente, tempore debitis beatae culpa natus architecto.</p>
+              </div>
+              <div class="card-footer">
+                <a href="#" class="btn btn-primary">Find Out More!</a>
+              </div>
+            </div>
+          </div>
+
+        </div>
   </div>
+</div>
 <br>
+<div class="container">
   <div class="col-lg-12" style="background: linear-gradient(to right, #f3e9ee, white); padding-top: 5px; border-radius: 5px">
       <h3 style="text-align: center;">Kursus Terpopuler</h3>
       <hr>
@@ -254,10 +275,9 @@
         </div>
 
       </div>
-   
+   </div>
     </div>
-      <!-- /.row -->
-    </div>
+
     <!-- /.container -->
 <!-- blog post -->
 <link href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css" rel="stylesheet"> 
@@ -265,7 +285,7 @@
 
 <section id="blog" >
       <div class="container">
-            <div class="row" align="center">
+            <div class="row block" align="center">
                  <div class="col-lg-12  text-center">  
                     <h2><span class="ion-minus"></span>Blog Posts<span class="ion-minus"></span></h2>
                     <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis  dis parturient montes, nascetur ridiculus </p><br>

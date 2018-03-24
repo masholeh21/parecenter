@@ -7,7 +7,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Heroic Features - Start Bootstrap Template</title>
+    <title>Parecenter.id</title>
 
 
     <!-- Custom styles for this template -->
@@ -25,7 +25,7 @@
     <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
       <div class="container">
         <img src="<?php echo base_url(); ?>asset/gambar/logo.png" style="height: 50px;">
-        <a class="navbar-brand" href="<?php echo base_url(); ?>">Parecenter.com</a>
+        <a class="navbar-brand" href="<?php echo base_url(); ?>">Parecenter.id</a>
                     <li class="dropdown nav-item">
                       <a href="#" class=" nav-link" data-toggle="dropdown" role="button" aria-expanded="false">Kategori <span class="caret"></span></a>
                       <ul class="dropdown-menu" role="menu">

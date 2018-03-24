@@ -59,12 +59,16 @@
         margin-top: 20px;
     }
 }
+.card{
+    height: 450px;
+}
 </style>
 <div class="index-content">
     <div class="container">
+        <div class="row">
     	<?php foreach ($blog as $blog_item) { ?>
             <a href="<?php echo site_url('blog/'.$blog_item['id_konten']); ?>">
-                <div class="col-lg-4">
+                <div class="col-lg-4" style="margin-bottom: 100px;">
                     <div class="card">
                         <img src="http://cevirdikce.com/proje/hasem-2/images/finance-1.jpg">
                         <h4><?php echo $blog_item['judul']; ?></h4></a>
@@ -74,6 +78,7 @@
                 </div>
             </a>
         <?php } ?>
+        </div>
     </div>
 </div>
 
