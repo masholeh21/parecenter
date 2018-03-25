@@ -15,6 +15,9 @@
 #carouselExampleIndicators{
   box-shadow: 5px 5px 5px #d9d9d9; border-radius: 5px
 }
+.card:hover{
+    box-shadow: 0 16px 24px 2px rgba(0,0,0,0.14), 0 6px 30px 5px rgba(0,0,0,0.12), 0 8px 10px -5px rgba(0,0,0,0.3);
+    color:black;
 </style>
 <div class="container" style="margin-top: 1%;">
       <!-- Jumbotron Header -->

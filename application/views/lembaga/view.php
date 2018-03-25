@@ -49,16 +49,16 @@
         </div>
         <div class="panel panel-default">
           <div class="panel-heading">
-            <h1 class="page-header small">Worked with many domain</h1>
-            <p class="page-subtitle small">Like to work fr different business</p>
+            <h1 class="page-header small">Kontak</h1>
+            <p class="page-subtitle small">...</p>
           </div>
           <div class="col-md-12">
             <ul class="list-group">
-              <li class="list-group-item"><span class="fa fa-male"></span> Worked with 1000+ people</li>
-              <li class="list-group-item"><span class="fa fa-institution"></span> 60+ offices</li>
-              <li class="list-group-item"><span class="fa fa-user"></span> 50000+ satify customers</li>
-              <li class="list-group-item"><span class="fa fa-clock-o"></span> Work hours many and many still counting</li>
-              <li class="list-group-item"><span class="fa fa-heart"></span> Customer satisfaction for servics</li>
+              <li class="list-group-item"><span class="fa fa-male"></span> <?php echo $lembaga_item['alamat']; ?></li>
+              <li class="list-group-item"><span class="fa fa-institution"></span> <?php echo $lembaga_item['cp']; ?></li>
+              <li class="list-group-item"><span class="fa fa-user"></span> ...</li>
+              <li class="list-group-item"><span class="fa fa-clock-o"></span>  ... </li>
+              <li class="list-group-item"><span class="fa fa-heart"></span> ...   </li>
             </ul>
           </div>
           <div class="clearfix"></div>

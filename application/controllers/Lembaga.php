@@ -16,11 +16,13 @@ class Lembaga extends CI_Controller {
 		$this->load->view('templates/footer');
 	}
 
-	public function view($id_lembaga = NULL)
+	public function view($id_lembaga)
 	{
-		$data['lembaga_item'] = $this ->lembaga_model->get_lembaga($id_lembaga); 
-		$this->load->view('templates/header');
-		$this->load->view('lembaga/view', $data);
-		$this->load->view('templates/footer');
+		
+			$data['lembaga_item'] = $this ->lembaga_model->get_lembaga($id_lembaga); 
+		 	$this->load->view('templates/header');
+			$this->load->view('lembaga/view', $data);
+			$this->load->view('templates/footer');
 	}
+	
 }

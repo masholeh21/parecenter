@@ -1,3 +1,9 @@
+<style type="text/css">
+  .card:hover{
+    box-shadow: 0 16px 24px 2px rgba(0,0,0,0.14), 0 6px 30px 5px rgba(0,0,0,0.12), 0 8px 10px -5px rgba(0,0,0,0.3);
+    color:black;
+}
+</style>
       <div class="container" >
         <div class="col-lg-12" style="background-color: white; padding-top: 50px; border-radius: 5px">
           <h3 style="text-align: center;">Lembaga Terpopuler</h3>
@@ -13,7 +19,7 @@
                 <b>Rating</b> ***** <br>
               </div>
               <div class="card-footer">
-                <a href="<?php echo site_url('blog/'.$lembaga_item['id_lembaga']); ?>" class="btn btn-primary">Info Selengkapnya</a>
+                <a href="<?php echo site_url('lembaga/'.$lembaga_item['id_lembaga']); ?>" class="btn btn-primary">Info Selengkapnya</a>
               </div>
             </div>
           </div>
